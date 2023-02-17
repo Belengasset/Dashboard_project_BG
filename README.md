@@ -4,8 +4,11 @@
 
 ## OBJECTIVE
 ---
-[last project](https://github.com/Belengasset/Project_Jan22_Hotels)
 
+I have decided to carry out this visualization project following my [previous hotel data analysis project](https://github.com/Belengasset/Project_Jan22_Hotels). 
+The former project consisted in evaluating if the ranking proposed by Travel+ Leisure magazine was in line with what Tripadvisor and Google reviews users thought.
+
+This time the project goes further, from the databases of the hotels of the previous project together with a database of restaurants of the Michelin Guide, I propose you three possibilities in which you can travel according to your preferences. First you can choose where you want to travel and I will propose you the best hotel, in the same way the best restaurant of the michelin guide. Finally I will propose you a complete experience, combining the best hotel and restaurant of the country of your choice.
 
 ## Folders
 ----
@@ -22,21 +25,30 @@ src
 ---
 ### **1. Data set & cleaning**
 
-#### Data extraction
+#### **Data extraction**
 
-I have extracted the data set from Kaggle Data Sets.
+As I have already mentioned, the databases related to the hotels I have extracted them from my previous project, where you will find more detail of each of the csv.
 
-In the following link you will have access to the original data set: https://www.kaggle.com/datasets/narmelan/travelleisure-worlds-best-hotels-2022
+The file related to the restaurants I have extracted it from [Kaggle Data Sets](https://www.kaggle.com/).
+
+
+### Cleaning
+
 
 ![imagen](images/TripAdvisor_Logo.svg)
 ![imagen](images/google_reviews.png)
-
-### Cleaning
 
 ### **2. Extraction**
 
 ### **3. Tableau**
 
+![imagen](images/TripAdvisor_Logo.svg)
+
+#### **History**
+
+The history, called in **Tavel experience** ,  is composed of the four previous dashboards and where you can save the results of the selection made.
+
+![imagen](History.png)
 
 ## Libraries
 ----

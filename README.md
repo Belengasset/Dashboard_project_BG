@@ -10,6 +10,9 @@ The former project consisted in evaluating if the ranking proposed by Travel+ Le
 
 This time the project goes further, from the databases of the hotels of the previous project together with a database of restaurants of the Michelin Guide, I propose you three possibilities in which you can travel according to your preferences. First you can choose where you want to travel and I will propose you the best hotel, in the same way the best restaurant of the michelin guide. Finally I will propose you a complete experience, combining the best hotel and restaurant of the country of your choice.
 
+In this [link](https://public.tableau.com/app/profile/bel.n.gasset.cortejarena7615/viz/Dashboard_project_BGC/DashboardRest?publish=yes) you can find the visualization project realized in **Tableau Public**. 
+
+
 ## Folders
 ----
 
@@ -23,32 +26,67 @@ src
 
 ## Project development
 ---
-### **1. Data set & cleaning**
+### **I. Data set**
 
 #### **Data extraction**
 
 As I have already mentioned, the databases related to the hotels I have extracted them from my previous project, where you will find more detail of each of the csv.
 
-The file related to the restaurants I have extracted it from [Kaggle Data Sets](https://www.kaggle.com/).
+What's new about the data concerning the hotels is the data set containing the website of each hotel. everything is done in the file [1- Scrapping_hotels](). To perform a data extraction by Web Scraping, using *Selenium* to interact with web browsers and perform actions such as clicking buttons, filling out forms, and navigating between pages. In this phase of web escraping I thought it appropriate to do it by extracting information through Google as I already had the code to do the scrapping. I've created a dataframe which contains the hotels (uniques), eliminating the repeated ones, as some of them were in both rankings), so that the extraction would be faster.
 
-
-### Cleaning
+Then, to obtain the file related to the restaurants I have extracted it from [2 - Clean_Notebook]().
 
 
 ![imagen](images/TripAdvisor_Logo.svg)
 ![imagen](images/google_reviews.png)
 
-### **2. Extraction**
+### **II. Cleaning**
 
-### **3. Tableau**
+In the notebook [2 - Clean_Notebook]().
 
-![imagen](images/TripAdvisor_Logo.svg)
+### **III. Tableau**
 
-#### **History**
+#### **1- Dashboard Index**
+![imagen](images/index.png)
+
+The first dashboard, called **Dashboard Index**, contains the index of the different experience dashboards. in it you will find a brief description of each one and its direct link.
+
+#### **2- Dashboard Hotel**
+
+![imagen](images/best_hotel.png)
+In this second dashboard, I propose the hotel experience. You can choose the *country* and depending on your choice you will get the **best hotel** according to the reviews of users of Google and Tripadvisor within the list of those proposed by Travel + Leisure.
+On the dashboard map, if you position yourself in a certain country, you will see the types of hotels in that country thanks to the use of the pop-up description.
+![imagen](images/Hotel_map_descemerg.png)
+
+Once you have selected the country, the graph below will show you the **best hotel** and the results of user reviews from Google Reviews and Tripadvisor websites. Also if you click on any bar you will see more details of the proposed hotel. 
+![imagen](images/Hotel_barrras_descemerg.png)
+
+Finally, if you click on the name of the hotel in the graph on the right side of the dashboard, it will give you access to the **hotel web page** and you will be able to browse or make your reservation directly!
+
+#### **3- Dashboard Restaurant**
+
+![imagen](images/best_restaurant.png)
+
+The third dashboard presents the gastronomic experience. First, on the **map** you can select the *country* in which you want to enjoy the experience. If you position yourself in a specific country you will be able to see thanks to the pop-up description the type of gastronomy of the restaurants in that country. Then you can select a country and the dashboard will adjust to your choice. 
+![imagen](images/Rest_map_descemergente.png)
+
+On the right side, you wil find the two best restaurant of the country with it's price and michelin award. 
+As there are many restaurants in several countries, I've decided to present all the restaurants of the country and more detail about them in case you may not want the best restaurante but choose several caracteristics.
+Finally, you can click on the hotel name so the web page of the restaurant will appear on the bottom right side and make you reservation directly.
+![imagen](images/1best.png)
+
+
+#### **4- Dashboard Union**
+![imagen](images/Full_experience.png)
+In this dashboard you will be able to combine both experiences, the hotel and the gastronomic. To do so, you only need to choose a country (it will allow to select only the countries in which you have hotels AND restaurants). Once you select the desired country, in the right side you will find the two best restaurants and below th map the chart with the reviwes of the best hotel of the country. 
+As on the other dashboards, if you click on the name of the hotel and restaurant you will be able to do all your reservations!
+
+
+#### **5- History**
 
 The history, called in **Tavel experience** ,  is composed of the four previous dashboards and where you can save the results of the selection made.
 
-![imagen](History.png)
+![imagen](images/History.png)
 
 ## Libraries
 ----

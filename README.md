@@ -1,6 +1,6 @@
 # Dashboard_project_BG
 
-![imagen](images/Travel-PNG-Photo.png) 
+![imagen](Images/Travel-PNG-Photo.png) 
 
 ## OBJECTIVE
 ---

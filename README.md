@@ -59,7 +59,7 @@ The first dashboard, called **Dashboard Index**, contains the index of the diffe
 
 #### **2- Dashboard Hotel**
 
-![Images](images/best_hotel.png)
+![Images](Images/best_hotel.png)
 
 In this second dashboard, I propose the hotel experience. You can choose the *country* and depending on your choice you will get the **best hotel** according to the reviews of users of Google and Tripadvisor within the list of those proposed by Travel + Leisure.
 On the dashboard map, if you position yourself in a certain country, you will see the types of hotels in that country thanks to the use of the pop-up description.

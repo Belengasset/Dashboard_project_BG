@@ -6,7 +6,7 @@
 ---
 
 I have decided to carry out this visualization project following my [previous hotel data analysis project](https://github.com/Belengasset/Project_Jan22_Hotels). 
-The former project consisted in evaluating if the ranking proposed by Travel+ Leisure magazine was in line with what Tripadvisor and Google Reviews users thought.
+The former project consisted in evaluating if the ranking proposed by **Travel+ Leisure** magazine was in line with what **Tripadvisor** and **Google Reviews** users thought.
 
 This time the project goes further, from the databases of the hotels of the previous project together with a database of restaurants of the Michelin Guide, I propose you three possibilities in which you can travel according to your preferences. First, you can choose where you want to travel and I will propose you the best hotel, in the same way the best restaurant of the michelin guide. Finally, I will propose you a complete experience, combining the best hotel and restaurant of the country of your choice.
 

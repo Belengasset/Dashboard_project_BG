@@ -8,7 +8,7 @@
 I have decided to carry out this visualization project following my [previous hotel data analysis project](https://github.com/Belengasset/Project_Jan22_Hotels). 
 The former project consisted in evaluating if the ranking proposed by Travel+ Leisure magazine was in line with what Tripadvisor and Google Reviews users thought.
 
-This time the project goes further, from the databases of the hotels of the previous project together with a database of restaurants of the Michelin Guide, I propose you three possibilities in which you can travel according to your preferences. First you can choose where you want to travel and I will propose you the best hotel, in the same way the best restaurant of the michelin guide. Finally I will propose you a complete experience, combining the best hotel and restaurant of the country of your choice.
+This time the project goes further, from the databases of the hotels of the previous project together with a database of restaurants of the Michelin Guide, I propose you three possibilities in which you can travel according to your preferences. First, you can choose where you want to travel and I will propose you the best hotel, in the same way the best restaurant of the michelin guide. Finally, I will propose you a complete experience, combining the best hotel and restaurant of the country of your choice.
 
 In this [link](https://public.tableau.com/app/profile/bel.n.gasset.cortejarena7615/viz/Dashboard_project_BGC/DashboardRest?publish=yes) you can find the visualization project realized in **Tableau Public**. 
 
@@ -66,7 +66,8 @@ On the dashboard map, if you position yourself in a certain country, you will se
 
 ![Images](Images/Hotel_map_descemerg.png)
 
-Once you have selected the country, the graph below will show you the **best hotel** and the results of user reviews from Google Reviews and Tripadvisor websites. Also if you click on any bar you will see more details of the proposed hotel. 
+Once you have selected the country, the graph below will show you the **best hotel** and the results of user reviews from Google Reviews and Tripadvisor websites. Also if you click on any bar you will see more details of the proposed hotel.
+
 ![Images](Images/Hotel_barrras_descemerg.png)
 
 Finally, if you click on the name of the hotel in the graph on the right side of the dashboard, it will give you access to the **hotel web page** and you will be able to browse or make your reservation directly!

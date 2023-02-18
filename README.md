@@ -22,7 +22,7 @@ In this [link](https://public.tableau.com/app/profile/bel.n.gasset.cortejarena76
 
 [Notebook](https://github.com/Belengasset/Dashboard_project_BG/tree/main/Notebook): *Contains the files (Jupyter notebooks) where the code is*
 
-src
+[src](https://github.com/Belengasset/Dashboard_project_BG/tree/main/src)
 
 ## Project development
 ---
@@ -32,15 +32,15 @@ src
 
 As I have already mentioned, the databases related to the hotels I have extracted them from my previous project, where you will find more detail of each of the csv.
 
-What's new about the data concerning the hotels is the data set containing the website of each hotel. everything is done in the file [1- Scrapping_hotels](https://github.com/Belengasset/Dashboard_project_BG/tree/main/Notebook#:~:text=1%2D%20Scrapping_hotels.ipynb). To perform a data extraction by Web Scraping, using *Selenium* to interact with web browsers and perform actions such as clicking buttons, filling out forms, and navigating between pages. In this phase of web escraping I thought it appropriate to do it by extracting information through Google as I already had the code to do the scrapping. I've created a dataframe which contains the hotels (uniques), eliminating the repeated ones, as some of them were in both rankings), so that the extraction would be faster.
+What's new about the data concerning the hotels is the data set containing the website of each hotel. everything is done in the file [1- Scrapping_hotels](https://github.com/Belengasset/Dashboard_project_BG/tree/main/Notebook#:~:text=1%2D%20Scrapping_hotels.ipynb). To perform a data extraction by Web Scraping, using *Selenium* to interact with web browsers and perform actions such as clicking buttons, filling out forms, and navigating between pages. In this phase of web escraping I thought it appropriate to do it by extracting information through Google as I already had the code to do the scrapping. I've created a dataframe which contains the hotels (uniques), eliminating the repeated ones, as some of them were in both rankings, so that the extraction would be faster.
 
-Then, to obtain perform the gastronomic experience I've decided to get the file from [Kaggle](https://www.kaggle.com/datasets/ngshiheng/michelin-guide-restaurants-2021). This file contains a dataset of the **Michelin Guide Restaurants** from all around the world curated from https://guide.michelin.com/en/restaurants. The culinary distinctions included are 3 Stars,2 Stars,1 Star,Bib Gourmand.
+Then, to obtain perform the gastronomic experience I've decided to get the file from [Kaggle](https://www.kaggle.com/datasets/ngshiheng/michelin-guide-restaurants-2021). This file contains a dataset of the **Michelin Guide Restaurants** from all around the world curated from https://guide.michelin.com/en/restaurants. The culinary distinctions included are 3 Stars, 2 Stars, 1 Star, Bib Gourmand.
 
 ![imagen](Images/michelin.jpeg)
 
 ### **II. Cleaning**
 
-In the notebook [2 - Clean_Notebook](https://github.com/Belengasset/Dashboard_project_BG/tree/main/Notebook#:~:text=2%20%2D%20Clean_Notebook.ipynb)is where all the cleaning and adjustments are done.
+In the notebook [2 - Clean_Notebook](https://github.com/Belengasset/Dashboard_project_BG/tree/main/Notebook#:~:text=2%20%2D%20Clean_Notebook.ipynb) is where all the cleaning and adjustments are done.
 
 No cleaning was needed for the hotels link file as the scrapping worked well, only I had to include with `.loc` the few missing websites that the scrapping wasn't abble to get.
 
@@ -60,8 +60,10 @@ The first dashboard, called **Dashboard Index**, contains the index of the diffe
 #### **2- Dashboard Hotel**
 
 ![imagen](images/best_hotel.png)
+
 In this second dashboard, I propose the hotel experience. You can choose the *country* and depending on your choice you will get the **best hotel** according to the reviews of users of Google and Tripadvisor within the list of those proposed by Travel + Leisure.
 On the dashboard map, if you position yourself in a certain country, you will see the types of hotels in that country thanks to the use of the pop-up description.
+
 ![imagen](Images/Hotel_map_descemerg.png)
 
 Once you have selected the country, the graph below will show you the **best hotel** and the results of user reviews from Google Reviews and Tripadvisor websites. Also if you click on any bar you will see more details of the proposed hotel. 
@@ -74,11 +76,13 @@ Finally, if you click on the name of the hotel in the graph on the right side of
 ![imagen](Images/best_restaurant.png)
 
 The third dashboard presents the gastronomic experience. First, on the **map** you can select the *country* in which you want to enjoy the experience. If you position yourself in a specific country you will be able to see thanks to the pop-up description the type of gastronomy of the restaurants in that country. Then you can select a country and the dashboard will adjust to your choice. 
+
 ![imagen](Images/Rest_map_descemergente.png)
 
 On the right side, you wil find the two best restaurant of the country with it's price and michelin award. 
 As there are many restaurants in several countries, I've decided to present all the restaurants of the country and more detail about them in case you may not want the best restaurante but choose several caracteristics.
 Finally, you can click on the hotel name so the web page of the restaurant will appear on the bottom right side and make you reservation directly.
+
 ![imagen](Images/1best.png)
 
 
